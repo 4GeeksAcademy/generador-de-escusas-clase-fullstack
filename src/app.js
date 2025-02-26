@@ -5,6 +5,7 @@ import "./style.css";
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
+
 window.onload = function() {}
   //write your code here
 document.getElementById('btn-excuse').addEventListener('click', function() {
@@ -19,13 +20,13 @@ document.getElementById('btn-excuse').addEventListener('click', function() {
       "while I was praying."
     ];
   
-    let primeraPalabra = who[Math.floor(Math.random() * who.length)];
-    let segundaPalabra = action[Math.floor(Math.random() * action.length)];
-    let terceraPalabra = what[Math.floor(Math.random() * what.length)];
-    let cuartaPalabra = when[Math.floor(Math.random() * when.length)];
+    let primeraFrase = who[Math.floor(Math.random() * who.length)];
+    let segundaFrase = action[Math.floor(Math.random() * action.length)];
+    let terceraFrase = what[Math.floor(Math.random() * what.length)];
+    let cuartaFrase = when[Math.floor(Math.random() * when.length)];
   
     document.getElementById("excuse").innerHTML =
-      primeraPalabra + segundaPalabra + terceraPalabra + cuartaPalabra;
+      primeraFrase + segundaFrase + terceraFrase + cuartaFrase;
   });
   console.log("Hello Rigo from the console!");
 
